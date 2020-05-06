@@ -10,7 +10,6 @@ app.use(bodyParser.json())
 
 mongoose.Promise = global.Promise;
 
-// Connecting to the database
 mongoose.connect(dbConfig.url, {
   useNewUrlParser: true,
   useUnifiedTopology: true
@@ -29,7 +28,7 @@ app.listen(3000, () => {
 
 app.get("/", (req, res, next) => {
   res.json({
-    "message": "Welcome to EasyNotes application. Take notes quickly. Organize and keep track of all your notes."
+    "message": "Welcome to First Node application."
   });
 });
 
@@ -38,7 +37,7 @@ app.get("/admin", (req, res, next) => {
     name: "Dishant Kamble",
     address: "Bengaluru",
     dob: 13051988,
-    email: "dishantk@gmail.com"
+    email: ""
   });
   res.json(userInstance);
 });
