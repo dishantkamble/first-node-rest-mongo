@@ -1,7 +1,7 @@
 # First Node Rest Mongo
 First program for trying hands on nodejs. :)
 
-![Node.js CI](https://github.com/dishantkamble/first-node-rest-mongo/workflows/Node.js%20CI/badge.svg)
+[![Node.js CI](https://github.com/dishantkamble/first-node-rest-mongo/actions/workflows/nodejs.yml/badge.svg)](https://github.com/dishantkamble/first-node-rest-mongo/actions/workflows/nodejs.yml)
 
 Application makes use of mongoDB running on docker.
 Pre-requisite: NPM
